@@ -1,0 +1,18 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#googleMap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
